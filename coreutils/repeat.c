@@ -3,12 +3,10 @@
  * repeat implementation for busybox
  *
  * Copyright (C) 2003  Manuel Novoa III  <mjn3@codepoet.org>
+ * 		 2015  Bjoern Riemer <bjoern.riemer@web.de>
  *
  * Licensed under GPLv2, see file LICENSE in this source tree.
  */
-
-/* BB_AUDIT SUSv3 compliant */
-/* http://www.opengroup.org/onlinepubs/007904975/utilities/cat.html */
 
 //kbuild:lib-$(CONFIG_REPEAT)     += repeat.o
 //applet:IF_REPEAT(APPLET(repeat, BB_DIR_USR_BIN, BB_SUID_DROP))
